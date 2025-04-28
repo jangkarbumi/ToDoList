@@ -83,3 +83,20 @@ ol {
     font-weight: bold;
     margin-right: 35px;  
 }
+
+@media screen and (max-width: 600px) {
+    input {
+        width: 90%;
+        font-size: 18px;
+    }
+    .tombol {
+        flex-direction: column;
+    }
+    #addButton, #removeAllButton {
+        width: 80%; 
+        margin-right: 0;
+    }
+    p, ol {
+        font-size: 18px;
+    }
+}
