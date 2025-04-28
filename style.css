@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: deeppink;
+}
+
+.header {
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 2.5px rgb(249, 241, 241) solid;
+}
+input {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.judul {
+    margin-top: 12px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+ol {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.tombol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#addButton {
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 35px;
+}
+#removeAllButton {
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 35px;  
+}
